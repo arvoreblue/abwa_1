@@ -1,0 +1,18 @@
+Git commands for first commit (new branch)
+
+cbearhoney@ubuntu:~/abwa_1$ git init
+Initialized empty Git repository in /home/cbearhoney/abwa_1/.git/
+cbearhoney@ubuntu:~/abwa_1$ touch README
+cbearhoney@ubuntu:~/abwa_1$ git add README 
+cbearhoney@ubuntu:~/abwa_1$ git commit -m 'first commit core drupal 6 files'
+[master (root-commit) 95fb05d] first commit core drupal 6 files
+ 0 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README
+cbearhoney@ubuntu:~/abwa_1$ git remote add origin git@github.com:arvoreblue/abwa_1.git
+cbearhoney@ubuntu:~/abwa_1$ git push origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 213 bytes, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To git@github.com:arvoreblue/abwa_1.git
+ * [new branch]      master -> master
+
